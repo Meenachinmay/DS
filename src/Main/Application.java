@@ -24,6 +24,23 @@ public class Application {
 		long endTime = System.currentTimeMillis();
 		//PrintArray(array);
 		
+		TrieImplement trie = new TrieImplement();
+//IMPLEMENTATION OF TRIE START FROM HERE
+// 		long startTime = System.currentTimeMillis();
+
+// 		Trie t = new Trie();
+// 		//inserting the strings in the trie
+// 		trie.data.forEach(t::Insert);
+
+// 		System.out.println(t.Query("pqrs"));
+// 		System.out.println(t.Query("abc"));
+// 		System.out.println(t.Query("psst"));
+// 		t.Update("psst", "abc");
+// 		System.out.println(t.Query("psst"));
+// 		System.out.println(t.Query("abc"));
+
+// 		long endTime = System.currentTimeMillis();
+		
 		double timeTaken = (double)(endTime - startTime) / 1000;
 		System.out.println("Time Taken " + timeTaken + " Seconds");
 	}
